@@ -1,0 +1,19 @@
+Judge whether the Model Answer is fully correct for the Question by comparing it only with the Correct Answer.
+
+Use these strict rules:
+1. Different wording and paraphrases are acceptable when the meaning is equivalent.
+2. The Model Answer must include ALL essential information in the Correct Answer, including every required entity, date/time, number, list item, relation, and qualifying condition relevant to the question.
+3. If any essential part is missing, only partially correct, less specific than required, contradictory, wrong, irrelevant, or an abstention/"insufficient information" response, label it false.
+4. Extra information is allowed only if it does not contradict or distort the correct answer.
+5. Do not use outside knowledge, conversation evidence, or assumptions. Use only the three fields below.
+
+Question:
+{question}
+
+Correct Answer:
+{gold}
+
+Model Answer:
+{response}
+
+Return only one JSON object: {{"label": true}} if the model answer is fully semantically equivalent and complete; otherwise {{"label": false}}.

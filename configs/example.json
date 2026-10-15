@@ -1,0 +1,9 @@
+{
+  "database": "runs/example/muse_mem.db",
+  "provider": "rule_based",
+  "model": "rule_based",
+  "governance_batch_size": 50,
+  "retrieval_rounds": 10,
+  "build_concurrency": 1,
+  "answer_concurrency": 4
+}

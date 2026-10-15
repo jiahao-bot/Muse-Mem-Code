@@ -1,0 +1,10 @@
+{
+  "database": "runs/benchmark/muse_mem.db",
+  "provider": "openai_compatible",
+  "model": "gemini-3.1-flash-lite",
+  "temperature": 1.0,
+  "governance_batch_size": 50,
+  "retrieval_rounds": 10,
+  "build_concurrency": 1,
+  "answer_concurrency": 8
+}

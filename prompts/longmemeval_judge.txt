@@ -1,0 +1,11 @@
+I will give you a question, a correct answer (or rubric), and a model response. Decide whether the model response is correct.
+
+Judge by semantic meaning rather than exact wording. A response is correct when it identifies the same answer and preserves the information required by the question. Paraphrases and harmless additional details are acceptable. A response is incorrect when it misses a required answer component, refers to a different entity or event, introduces a contradiction, or answers a question whose reference requires abstention.
+
+For numerical and temporal answers, accept equivalent forms and ordinary rounding only when they preserve the reference value or interval. For list or compound answers, verify that all components required by the question are covered. For an unanswerable question, the response must clearly indicate that the requested information cannot be determined.
+
+Question: {question}
+Correct Answer: {answer}
+Model Response: {response}
+
+Return only "yes" if the response is correct and "no" otherwise.
